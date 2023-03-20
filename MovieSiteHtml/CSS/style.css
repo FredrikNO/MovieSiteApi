@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.Header{
+    width: 100%;
+    height: 2.5rem;
+    background-color: blue;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.User_Search{
+    margin: 0;
+}
+
+.SiteName{
+    margin:3.5% 3.5%;
+}
+.pageInfo{
+    margin-left: 25%;
+}
+.mainContainer{
+    background-color: brown;
+    width: 50%;
+    display: grid;
+    margin-left: 25%;
+}
+
+.homePageImg{
+    width: 70px;
+    height: 100px;
+}
+.HomePageInfo{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    align-items: center;
+    padding-bottom: 2px;
+}
